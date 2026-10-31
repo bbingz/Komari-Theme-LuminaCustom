@@ -1,10 +1,10 @@
 {
-  "name": "Komari-Theme-LuminaLite",
-  "short": "LuminaLite",
-  "description": "Komari-Theme-LuminaLite",
-  "version": "3.0.2",
-  "author": "JohnsonRan",
-  "url": "https://github.com/JohnsonRan/Komari-Theme-LuminaLite",
+  "name": "Komari-Theme-LuminaCustom",
+  "short": "LuminaCustom",
+  "description": "支持全量 65 项采集字段自由定制显示列、拖拽调序、多条件组合筛选与全字段排序的 Komari 增强主题",
+  "version": "3.1.0",
+  "author": "bbingz & JohnsonRan",
+  "url": "https://github.com/bbingz/Komari-Theme-LuminaCustom",
   "preview": "preview.png",
   "configuration": {
     "type": "managed",
@@ -14,7 +14,10 @@
     },
     "data": [
       {
-        "name": { "zh-CN": "外观", "en": "Appearance" },
+        "name": {
+          "zh-CN": "外观",
+          "en": "Appearance"
+        },
         "type": "title"
       },
       {
@@ -26,7 +29,10 @@
       },
       {
         "key": "defaultAppearance",
-        "name": { "zh-CN": "默认外观", "en": "Default appearance" },
+        "name": {
+          "zh-CN": "默认外观",
+          "en": "Default appearance"
+        },
         "type": "select",
         "options": "system,light,dark",
         "default": "system",
@@ -37,7 +43,10 @@
       },
       {
         "key": "enableIconAnimations",
-        "name": { "zh-CN": "界面动效", "en": "Interface motion" },
+        "name": {
+          "zh-CN": "界面动效",
+          "en": "Interface motion"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -47,7 +56,10 @@
       },
       {
         "key": "enableDataAnimations",
-        "name": { "zh-CN": "数据动效", "en": "Live-data motion" },
+        "name": {
+          "zh-CN": "数据动效",
+          "en": "Live-data motion"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -57,7 +69,10 @@
       },
       {
         "key": "enableAdminButton",
-        "name": { "zh-CN": "显示后台入口", "en": "Show admin entry" },
+        "name": {
+          "zh-CN": "显示后台入口",
+          "en": "Show admin entry"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -65,14 +80,19 @@
           "en": "Show the admin entry in the home floating controls."
         }
       },
-
       {
-        "name": { "zh-CN": "视图", "en": "View" },
+        "name": {
+          "zh-CN": "视图",
+          "en": "View"
+        },
         "type": "title"
       },
       {
         "key": "desktopNodeViewMode",
-        "name": { "zh-CN": "桌面端默认视图", "en": "Desktop default view" },
+        "name": {
+          "zh-CN": "桌面端默认视图",
+          "en": "Desktop default view"
+        },
         "type": "select",
         "options": "large,compact,mini,list",
         "default": "large",
@@ -83,7 +103,10 @@
       },
       {
         "key": "mobileNodeViewMode",
-        "name": { "zh-CN": "移动端默认视图", "en": "Mobile default view" },
+        "name": {
+          "zh-CN": "移动端默认视图",
+          "en": "Mobile default view"
+        },
         "type": "select",
         "options": "large,compact,mini",
         "default": "compact",
@@ -94,7 +117,10 @@
       },
       {
         "key": "listDefaultColumns",
-        "name": { "zh-CN": "列表视图默认列", "en": "List view default columns" },
+        "name": {
+          "zh-CN": "列表视图默认列",
+          "en": "List view default columns"
+        },
         "type": "richtext",
         "default": "node,os,cpu,memory,disk,load,live_speed,traffic,network,life",
         "help": {
@@ -102,14 +128,19 @@
           "en": "Comma or newline separated column IDs for list view. Visitors can also customize all 64 fields directly in the UI."
         }
       },
-
       {
-        "name": { "zh-CN": "背景", "en": "Background" },
+        "name": {
+          "zh-CN": "背景",
+          "en": "Background"
+        },
         "type": "title"
       },
       {
         "key": "enableBackgroundImage",
-        "name": { "zh-CN": "启用背景图", "en": "Enable background image" },
+        "name": {
+          "zh-CN": "启用背景图",
+          "en": "Enable background image"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -119,7 +150,10 @@
       },
       {
         "key": "backgroundImage",
-        "name": { "zh-CN": "桌面端背景图", "en": "Desktop background URL" },
+        "name": {
+          "zh-CN": "桌面端背景图",
+          "en": "Desktop background URL"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -129,7 +163,10 @@
       },
       {
         "key": "backgroundImageMobile",
-        "name": { "zh-CN": "移动端背景图", "en": "Mobile background URL" },
+        "name": {
+          "zh-CN": "移动端背景图",
+          "en": "Mobile background URL"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -139,7 +176,10 @@
       },
       {
         "key": "backgroundAlignment",
-        "name": { "zh-CN": "背景对齐", "en": "Background alignment" },
+        "name": {
+          "zh-CN": "背景对齐",
+          "en": "Background alignment"
+        },
         "type": "string",
         "default": "cover,center",
         "help": {
@@ -149,7 +189,10 @@
       },
       {
         "key": "surfaceOpacity",
-        "name": { "zh-CN": "卡片不透明度", "en": "Card opacity" },
+        "name": {
+          "zh-CN": "卡片不透明度",
+          "en": "Card opacity"
+        },
         "type": "number",
         "default": 100,
         "help": {
@@ -157,14 +200,19 @@
           "en": "Integer 0–100. Below 95 adds a readability scrim over the background."
         }
       },
-
       {
-        "name": { "zh-CN": "配色", "en": "Colors" },
+        "name": {
+          "zh-CN": "配色",
+          "en": "Colors"
+        },
         "type": "title"
       },
       {
         "key": "darkDepth",
-        "name": { "zh-CN": "暗色深度", "en": "Dark depth" },
+        "name": {
+          "zh-CN": "暗色深度",
+          "en": "Dark depth"
+        },
         "type": "number",
         "default": 100,
         "help": {
@@ -174,7 +222,10 @@
       },
       {
         "key": "metricColorCpu",
-        "name": { "zh-CN": "CPU 颜色", "en": "CPU color" },
+        "name": {
+          "zh-CN": "CPU 颜色",
+          "en": "CPU color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -184,7 +235,10 @@
       },
       {
         "key": "metricColorMemory",
-        "name": { "zh-CN": "内存颜色", "en": "Memory color" },
+        "name": {
+          "zh-CN": "内存颜色",
+          "en": "Memory color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -194,7 +248,10 @@
       },
       {
         "key": "metricColorDisk",
-        "name": { "zh-CN": "磁盘颜色", "en": "Disk color" },
+        "name": {
+          "zh-CN": "磁盘颜色",
+          "en": "Disk color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -204,7 +261,10 @@
       },
       {
         "key": "metricColorLoad",
-        "name": { "zh-CN": "负载颜色", "en": "Load color" },
+        "name": {
+          "zh-CN": "负载颜色",
+          "en": "Load color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -214,7 +274,10 @@
       },
       {
         "key": "metricColorSwap",
-        "name": { "zh-CN": "Swap 颜色", "en": "Swap color" },
+        "name": {
+          "zh-CN": "Swap 颜色",
+          "en": "Swap color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -224,7 +287,10 @@
       },
       {
         "key": "metricColorSpeedIdle",
-        "name": { "zh-CN": "超低速颜色", "en": "Idle speed color" },
+        "name": {
+          "zh-CN": "超低速颜色",
+          "en": "Idle speed color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -234,7 +300,10 @@
       },
       {
         "key": "metricColorSpeedLow",
-        "name": { "zh-CN": "低速颜色", "en": "Low speed color" },
+        "name": {
+          "zh-CN": "低速颜色",
+          "en": "Low speed color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -244,7 +313,10 @@
       },
       {
         "key": "metricColorSpeedHigh",
-        "name": { "zh-CN": "高速颜色", "en": "High speed color" },
+        "name": {
+          "zh-CN": "高速颜色",
+          "en": "High speed color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -254,7 +326,10 @@
       },
       {
         "key": "metricColorSpeedMax",
-        "name": { "zh-CN": "急速颜色", "en": "Max speed color" },
+        "name": {
+          "zh-CN": "急速颜色",
+          "en": "Max speed color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -264,7 +339,10 @@
       },
       {
         "key": "metricColorTrafficUp",
-        "name": { "zh-CN": "上行颜色", "en": "Upload color" },
+        "name": {
+          "zh-CN": "上行颜色",
+          "en": "Upload color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -274,7 +352,10 @@
       },
       {
         "key": "metricColorTrafficDown",
-        "name": { "zh-CN": "下行颜色", "en": "Download color" },
+        "name": {
+          "zh-CN": "下行颜色",
+          "en": "Download color"
+        },
         "type": "string",
         "default": "",
         "help": {
@@ -282,14 +363,19 @@
           "en": "Traffic direction: download. 6-digit hex; empty = default."
         }
       },
-
       {
-        "name": { "zh-CN": "首页", "en": "Home" },
+        "name": {
+          "zh-CN": "首页",
+          "en": "Home"
+        },
         "type": "title"
       },
       {
         "key": "showHomeOverview",
-        "name": { "zh-CN": "显示顶部总览", "en": "Show home overview" },
+        "name": {
+          "zh-CN": "显示顶部总览",
+          "en": "Show home overview"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -299,7 +385,10 @@
       },
       {
         "key": "showGroupTabs",
-        "name": { "zh-CN": "显示分组筛选", "en": "Show group tabs" },
+        "name": {
+          "zh-CN": "显示分组筛选",
+          "en": "Show group tabs"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -309,7 +398,10 @@
       },
       {
         "key": "showRegionBar",
-        "name": { "zh-CN": "显示地区筛选", "en": "Show region bar" },
+        "name": {
+          "zh-CN": "显示地区筛选",
+          "en": "Show region bar"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -319,7 +411,10 @@
       },
       {
         "key": "showCardGroup",
-        "name": { "zh-CN": "卡片显示分组", "en": "Show group on cards" },
+        "name": {
+          "zh-CN": "卡片显示分组",
+          "en": "Show group on cards"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -329,7 +424,10 @@
       },
       {
         "key": "enableHomeSort",
-        "name": { "zh-CN": "启用排序切换", "en": "Enable home sort" },
+        "name": {
+          "zh-CN": "启用排序切换",
+          "en": "Enable home sort"
+        },
         "type": "switch",
         "default": false,
         "help": {
@@ -339,7 +437,10 @@
       },
       {
         "key": "homeSortField",
-        "name": { "zh-CN": "默认排序维度", "en": "Default sort field" },
+        "name": {
+          "zh-CN": "默认排序维度",
+          "en": "Default sort field"
+        },
         "type": "select",
         "options": "default,name,speed,traffic",
         "default": "default",
@@ -350,7 +451,10 @@
       },
       {
         "key": "homeSortDirection",
-        "name": { "zh-CN": "默认排序方向", "en": "Default sort direction" },
+        "name": {
+          "zh-CN": "默认排序方向",
+          "en": "Default sort direction"
+        },
         "type": "select",
         "options": "asc,desc",
         "default": "asc",
@@ -361,7 +465,10 @@
       },
       {
         "key": "enableAttentionSort",
-        "name": { "zh-CN": "异常节点置顶", "en": "Attention sort" },
+        "name": {
+          "zh-CN": "异常节点置顶",
+          "en": "Attention sort"
+        },
         "type": "switch",
         "default": false,
         "help": {
@@ -371,7 +478,10 @@
       },
       {
         "key": "attentionCpuPct",
-        "name": { "zh-CN": "异常阈值 · CPU %", "en": "Attention · CPU %" },
+        "name": {
+          "zh-CN": "异常阈值 · CPU %",
+          "en": "Attention · CPU %"
+        },
         "type": "number",
         "default": 90,
         "help": {
@@ -381,7 +491,10 @@
       },
       {
         "key": "attentionMemoryPct",
-        "name": { "zh-CN": "异常阈值 · 内存 %", "en": "Attention · Memory %" },
+        "name": {
+          "zh-CN": "异常阈值 · 内存 %",
+          "en": "Attention · Memory %"
+        },
         "type": "number",
         "default": 90,
         "help": {
@@ -391,7 +504,10 @@
       },
       {
         "key": "attentionDiskPct",
-        "name": { "zh-CN": "异常阈值 · 磁盘 %", "en": "Attention · Disk %" },
+        "name": {
+          "zh-CN": "异常阈值 · 磁盘 %",
+          "en": "Attention · Disk %"
+        },
         "type": "number",
         "default": 90,
         "help": {
@@ -401,7 +517,10 @@
       },
       {
         "key": "attentionLossPct",
-        "name": { "zh-CN": "异常阈值 · 丢包 %", "en": "Attention · Loss %" },
+        "name": {
+          "zh-CN": "异常阈值 · 丢包 %",
+          "en": "Attention · Loss %"
+        },
         "type": "number",
         "default": 5,
         "help": {
@@ -411,7 +530,10 @@
       },
       {
         "key": "attentionTrafficRemainPct",
-        "name": { "zh-CN": "异常阈值 · 剩余流量 %", "en": "Attention · Traffic remain %" },
+        "name": {
+          "zh-CN": "异常阈值 · 剩余流量 %",
+          "en": "Attention · Traffic remain %"
+        },
         "type": "number",
         "default": 10,
         "help": {
@@ -421,7 +543,10 @@
       },
       {
         "key": "attentionExpireDays",
-        "name": { "zh-CN": "异常阈值 · 距到期天数", "en": "Attention · Expire days" },
+        "name": {
+          "zh-CN": "异常阈值 · 距到期天数",
+          "en": "Attention · Expire days"
+        },
         "type": "number",
         "default": 7,
         "help": {
@@ -431,7 +556,10 @@
       },
       {
         "key": "showNodeHistory",
-        "name": { "zh-CN": "显示 24 小时历史", "en": "Show 24h history" },
+        "name": {
+          "zh-CN": "显示 24 小时历史",
+          "en": "Show 24h history"
+        },
         "type": "switch",
         "default": false,
         "help": {
@@ -441,7 +569,10 @@
       },
       {
         "key": "showVisitorInfo",
-        "name": { "zh-CN": "显示访客 IP 信息条", "en": "Show visitor info" },
+        "name": {
+          "zh-CN": "显示访客 IP 信息条",
+          "en": "Show visitor info"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -451,7 +582,10 @@
       },
       {
         "key": "homeGroupOrder",
-        "name": { "zh-CN": "分组排序", "en": "Group order" },
+        "name": {
+          "zh-CN": "分组排序",
+          "en": "Group order"
+        },
         "type": "richtext",
         "default": "",
         "help": {
@@ -459,9 +593,11 @@
           "en": "One group per line or comma-separated. Listed groups come first; others keep backend order."
         }
       },
-
       {
-        "name": { "zh-CN": "节点", "en": "Nodes" },
+        "name": {
+          "zh-CN": "节点",
+          "en": "Nodes"
+        },
         "type": "title"
       },
       {
@@ -473,7 +609,10 @@
       },
       {
         "key": "hiddenNodeIds",
-        "name": { "zh-CN": "隐藏节点", "en": "Hidden nodes" },
+        "name": {
+          "zh-CN": "隐藏节点",
+          "en": "Hidden nodes"
+        },
         "type": "nodes",
         "default": "[]",
         "help": {
@@ -481,14 +620,19 @@
           "en": "Selected nodes leave the home grid, overview statistics, and Ping requests."
         }
       },
-
       {
-        "name": { "zh-CN": "卡片", "en": "Cards" },
+        "name": {
+          "zh-CN": "卡片",
+          "en": "Cards"
+        },
         "type": "title"
       },
       {
         "key": "compactShowTrafficTotal",
-        "name": { "zh-CN": "显示累计流量", "en": "Show traffic total" },
+        "name": {
+          "zh-CN": "显示累计流量",
+          "en": "Show traffic total"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -498,7 +642,10 @@
       },
       {
         "key": "compactShowBilling",
-        "name": { "zh-CN": "显示费用到期", "en": "Show billing" },
+        "name": {
+          "zh-CN": "显示费用到期",
+          "en": "Show billing"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -508,7 +655,10 @@
       },
       {
         "key": "compactShowUptime",
-        "name": { "zh-CN": "显示在线时间", "en": "Show uptime" },
+        "name": {
+          "zh-CN": "显示在线时间",
+          "en": "Show uptime"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -518,7 +668,10 @@
       },
       {
         "key": "showConnections",
-        "name": { "zh-CN": "显示连接数（TCP/UDP）", "en": "Show connections" },
+        "name": {
+          "zh-CN": "显示连接数（TCP/UDP）",
+          "en": "Show connections"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -526,9 +679,11 @@
           "en": "Show live TCP/UDP counts; 0 when agent does not report."
         }
       },
-
       {
-        "name": { "zh-CN": "Ping", "en": "Ping" },
+        "name": {
+          "zh-CN": "Ping",
+          "en": "Ping"
+        },
         "type": "title"
       },
       {
@@ -540,7 +695,10 @@
       },
       {
         "key": "homepagePingTasks",
-        "name": { "zh-CN": "首页延迟检测", "en": "Homepage Ping tasks" },
+        "name": {
+          "zh-CN": "首页延迟检测",
+          "en": "Homepage Ping tasks"
+        },
         "type": "pingtasks",
         "default": "[]",
         "help": {
@@ -550,7 +708,10 @@
       },
       {
         "key": "showPingChart",
-        "name": { "zh-CN": "显示详情页 Ping 图", "en": "Show detail ping chart" },
+        "name": {
+          "zh-CN": "显示详情页 Ping 图",
+          "en": "Show detail ping chart"
+        },
         "type": "switch",
         "default": true,
         "help": {
@@ -559,12 +720,18 @@
         }
       },
       {
-        "name": { "zh-CN": "详情", "en": "Detail" },
+        "name": {
+          "zh-CN": "详情",
+          "en": "Detail"
+        },
         "type": "title"
       },
       {
         "key": "detailChartUnit",
-        "name": { "zh-CN": "负载图内存/磁盘单位", "en": "Load chart unit" },
+        "name": {
+          "zh-CN": "负载图内存/磁盘单位",
+          "en": "Load chart unit"
+        },
         "type": "select",
         "options": "bytes,percent",
         "default": "bytes",
@@ -575,7 +742,10 @@
       },
       {
         "key": "detailNetworkUnit",
-        "name": { "zh-CN": "实时网速单位", "en": "Network unit" },
+        "name": {
+          "zh-CN": "实时网速单位",
+          "en": "Network unit"
+        },
         "type": "select",
         "options": "mbs,mbps",
         "default": "mbs",
@@ -586,7 +756,10 @@
       },
       {
         "key": "detailSplitLayout",
-        "name": { "zh-CN": "详情页分栏布局", "en": "Detail split layout" },
+        "name": {
+          "zh-CN": "详情页分栏布局",
+          "en": "Detail split layout"
+        },
         "type": "switch",
         "default": true,
         "help": {

@@ -1,9 +1,9 @@
 {
-  "name": "komari-theme-luminalite",
+  "name": "komari-theme-luminacustom",
   "private": true,
-  "version": "3.0.2",
+  "version": "3.1.0",
   "type": "module",
-  "description": "Komari-Theme-LuminaLite",
+  "description": "Komari-Theme-LuminaCustom",
   "author": "codex&shark&shanyang",
   "scripts": {
     "dev": "vite",
